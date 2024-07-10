@@ -11,9 +11,8 @@ do {
       fraseCompleta = fraseCompleta +'-' + palabraIngresada;
 }
 }
-    console.log(fraseCompleta);
+
 }while (confirm('¿Desea Continuar?'));
 
-console.log(fraseCompleta);
 
 document.write(`Frase ingresada: ${fraseCompleta}`);
